@@ -5,10 +5,11 @@
   "main": ".build/bot.js",
   "scripts": {
     "start": "ts-node bot.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "heroku-cleanup": "npx playwright install"
   },
   "engines": {
-    "node": ">= 14.1"
+    "node": ">= 14.0"
   },
   "license": "MIT",
   "dependencies": {
