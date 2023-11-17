@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node bot.ts",
     "build": "tsc",
-    "heroku-cleanup": "npx playwright install"
+    "heroku-cleanup": "npx playwright install chromium"
   },
   "engines": {
     "node": ">= 14.0"
